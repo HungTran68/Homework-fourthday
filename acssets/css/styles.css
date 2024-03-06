@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 900px;
+    background-color: #eff4f4;;
+}
+.top-container{
+    width: 70%;
+    height: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-evenly;
+    align-items: center;
+    
+}
+
+.card{
+    width: 30%;
+    height: 350px;
+    border: 1px solid rgb(231, 226, 226);
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    /* align-content: space-between; */
+}
+.area-img{
+    width: 100%;
+    height: 190px;
+    }
+.description-course{
+    width: 100%;
+    color: black;
+    font-weight: bolder;
+}
+.img{
+    width: 100%;
+    height: 55%;
+    height: 100%;
+}
+.info-course{
+    width: 100%;
+    font-size: small;
+    color: #6f6f6f;
+    display: flex;
+    justify-content: space-between;
+}
+.price-course{
+    width: 100%;
+    color: red;
+}
+.text-card{
+    width: 100%;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ padding-left: 20px;
+ padding-bottom: 15px;
+ padding-right: 20px;
+}
+
